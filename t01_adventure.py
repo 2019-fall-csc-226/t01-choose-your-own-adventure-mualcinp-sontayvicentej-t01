@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen       TODO: Change this to your names
-# Username: heggens               TODO: Change this to your usernames
+# Author: Jhonny Sontay, Mualcin Phun      TODO: Change this to your names
+# Username: Maualcinp, sontayvicentej              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
 #
@@ -67,8 +67,19 @@ if dead == True:
 
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
-
-
+sleep(delay*3)
+print("You wake up in another part of the cave, unfortunately.")
+print("It seems like you will be here a while.")
+print("You see two doors in front of you. One is made of wood. It looks like it is about to fall off.")
+print("The other door is just plants. All you gotta do is walk through and you're on the other side. ")
+print("There is also a doorway with no door. ")
+choice= input("Where will you go? [Wood/Plant/No door/Sit]   ")
+if choice == "Wood":
+    print("As you push the door open, it falls off. ")
+     print( "The loud noise wakes up the polar bear sleeping inside. It then proceeds to devour you with salt.")
+elif choice == "Plant":
+    print("You brush the plants to the side and walk through the doorway.")
+    print("You fall into a 100 foot hole into the mouth of a giant venus fly trap.")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
