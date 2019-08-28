@@ -1,5 +1,5 @@
 ######################################################################
-# Author: Jhonny Sontay, Mualcin Phun      TODO: Change this to your names
+# Author: Jhonny Sontay, Phun Mualcin      TODO: Change this to your names
 # Username: Maualcinp, sontayvicentej              TODO: Change this to your usernames
 #
 # Assignment: T01: Choose Your Own Adventure
