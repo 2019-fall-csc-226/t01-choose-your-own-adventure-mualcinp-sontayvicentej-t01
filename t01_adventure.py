@@ -86,7 +86,7 @@ elif choice == "No door":
     print(" You walk through the doorway and you see a faint light in the distance. You run to this light.")
     print("You discover a chest. You open the chest and find food and water in the chest!.")
     print("After eating, you continue to walk on and eventually find the Exit. ")
-    print("You are FREE!")
+    print("You are free!")
 if dead==True:
     print("You have been eaten by the polar bear!")
     quit()
