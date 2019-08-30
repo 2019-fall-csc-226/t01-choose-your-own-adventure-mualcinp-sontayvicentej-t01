@@ -41,6 +41,7 @@ sleep(delay)
 # You will learn more by NOT copy and pasting this section. Write your section on your own, and when you get stuck,
 # refer to this code to help you get unstuck. Of course, raise your hand if you get really stuck.
 
+
 direction = input("Which direction would you like to go? [North/South/East/West]" )
 
 if direction == "North":
@@ -68,7 +69,8 @@ if dead == True:
 #########################################################################################################
 # TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 sleep(delay*3)
-print("You wake up in another part of the cave, unfortunately.")
+print("")
+print("")
 print("It seems like you will be here a while.")
 print("You see two doors in front of you. One is made of wood. It looks like it is about to fall off.")
 print("The other door is just plants. All you gotta do is walk through and you're on the other side. ")
@@ -82,6 +84,7 @@ elif choice == "Plant":
     print("You brush the plants to the side and walk through the doorway.")
     print("This opens up a secret path. You follow this path for hours.")
     print(" You somehow ended up at the same doorways that you encountered earlier.")
+
 elif choice == "No door":
     print(" You walk through the doorway and you see a faint light in the distance. You run to this light.")
     print("You discover a chest. You open the chest and find food and water in the chest!.")
